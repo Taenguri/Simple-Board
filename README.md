@@ -40,12 +40,13 @@
 회원가입시 유효성체크를 통해
 공백문자가 없도록 구현했습니다.
 <hr>
+<br>
 ![image](https://user-images.githubusercontent.com/100080583/156282785-321449f5-4af7-43f1-8dde-e14856e61320.png)<br>
 ![image](https://user-images.githubusercontent.com/100080583/156282789-be55de52-59b6-4a62-89ae-fe2b5c6ae918.png)<br>
 ![image](https://user-images.githubusercontent.com/100080583/156282793-5822e61c-cf4c-456d-8b8e-920f80ed4ddc.png)<br>
  Ajax 를 활용하여
 실시간 아이디 중복검사를
-구현했습니다. <br>                                                                                                                  
+구현했습니다.                                                                                                         
 
 
 
