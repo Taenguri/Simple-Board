@@ -29,7 +29,7 @@
 ![image](https://user-images.githubusercontent.com/100080583/156282545-712eb693-4c00-4bcc-bd20-9395e57c00e4.png)
 
 회원제 게시판이므로 로그인을 하지 않은 사용자가 로그인이 필요한 서비스에 접근 할 경우를 대비해
-인터셉터를 활용하여 비회원의 접근을 제한합니다.
+인터셉터를 활용하여 비회원의 접근을 제한합니다.<hr>
 
 
 ### 회원가입
@@ -38,14 +38,14 @@
 ![image](https://user-images.githubusercontent.com/100080583/156282619-9e8f9c4c-89e9-4fee-a30b-d6dd1fc36f96.png)<br>
 ![image](https://user-images.githubusercontent.com/100080583/156282630-150a7fc2-e571-46d1-b14e-67030c6e43b3.png)<br>
 회원가입시 유효성체크를 통해
-공백문자가 없도록 구현했습니다.
+공백문자가 없도록 구현했습니다.<hr>
 ### 회원가입
 ![image](https://user-images.githubusercontent.com/100080583/156282785-321449f5-4af7-43f1-8dde-e14856e61320.png)<br>
 ![image](https://user-images.githubusercontent.com/100080583/156282789-be55de52-59b6-4a62-89ae-fe2b5c6ae918.png)<br>
 ![image](https://user-images.githubusercontent.com/100080583/156282793-5822e61c-cf4c-456d-8b8e-920f80ed4ddc.png)<br>
  Ajax 를 활용하여
 실시간 아이디 중복검사를
-구현했습니다.       <br>                                                                                           
+구현했습니다.       <hr>                                                                                           
 
 ### 회원가입
 
@@ -59,7 +59,7 @@
 
 ### 로그인
 
-![image](https://user-images.githubusercontent.com/100080583/156283387-31909cff-a880-4042-9ea2-90d8e09e6973.png)<br>
+![image](https://user-images.githubusercontent.com/100080583/156283387-31909cff-a880-4042-9ea2-90d8e09e6973.png)
 ![image](https://user-images.githubusercontent.com/100080583/156283395-b62219f8-9934-4e79-830c-1a57f076898b.png)
 
 
