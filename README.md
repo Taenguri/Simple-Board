@@ -45,7 +45,23 @@
 ![image](https://user-images.githubusercontent.com/100080583/156282793-5822e61c-cf4c-456d-8b8e-920f80ed4ddc.png)<br>
  Ajax 를 활용하여
 실시간 아이디 중복검사를
-구현했습니다.                                                                                                         
+구현했습니다.       <br>                                                                                           
+
+### 회원가입
+
+![image](https://user-images.githubusercontent.com/100080583/156283335-47cd3b19-d5e1-4d6d-b108-877def4b7380.png)<br>
+![image](https://user-images.githubusercontent.com/100080583/156283346-55bfb8a5-bbfd-4212-84df-1da682ea2b3c.png)<br>
+![image](https://user-images.githubusercontent.com/100080583/156283357-e1772fb3-9818-47ac-84ce-4b144fac5a62.png)<br>
+스프링 시큐리티 프레임워크에서
+제공하는 클래스 중 하나로  비밀번호를 암호화하는 데 사용 할수 있는 메서드를 가진 클래스인 BcryptPasswordEncoder 를 사용하여 회원가입시 비밀번호를
+암호화합니다<br>
+
+
+### 로그인
+
+![image](https://user-images.githubusercontent.com/100080583/156283387-31909cff-a880-4042-9ea2-90d8e09e6973.png)
+![image](https://user-images.githubusercontent.com/100080583/156283395-b62219f8-9934-4e79-830c-1a57f076898b.png)
+
 
 
 
