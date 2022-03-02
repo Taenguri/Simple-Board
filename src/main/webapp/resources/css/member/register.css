@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+body {
+  margin: 0px;
+  background-color:#FFE4B5;
+  border: none;
+}
+
+.register-form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);  
+  margin: 0 auto;
+  width: 300px;
+  background-color: #EEEFF1;
+  border-radius: 5px;
+  border: 0px;
+  padding: 20px;
+  text-align: center;
+}
+
+.input_id {
+  font-size: 14px;
+  width: 260px;
+  border: 0px;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+.input_name {
+  font-size: 14px;
+  width: 260px;
+  border: 0px;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom:5px;
+  margin-top: 5px;
+}
+.input_pw {
+  font-size: 14px;
+  width: 260px;
+  border: 0px;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.input_pwCheck {
+  font-size: 14px;
+  width: 260px;
+  border: 0px;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.register-button {
+
+  font-size: 14px;
+  color: white;
+  background-color: #FFBB8C;
+  border-radius: 5px;
+  border: none;
+  width: 260px;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-top : 10px;
+}
+.return-button {
+  font-size: 14px;
+  color: white;
+  background-color: #FFBB8C;
+  border-radius: 5px;
+  border: none;
+  width: 260px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.register-button:hover{
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50)
+}
+.return-button:hover{
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50)
+}
+	/* 중복아이디 존재하지 않는경우 */
+	.input_id_ok{
+		color : green;
+		display : none;
+		font-size:10px;
+	}
+	/* 중복아이디 존재하는 경우 */
+	.input_id_no{
+		color : red;
+		display : none;
+		font-size:10px;
+	}
+	
+ 
+/* 비밀번호 확인 일치 유효성검사 */
+.input_pwCheck_ok{
+        color : green;
+        display : none;  
+        font-size:10px;  
+}
+.input_pwCheck_no{
+        color : red;
+        display : none; 
+        font-size:10px;   
+}    
+ 
+/* 유효성 검사 문구 */
+ 
+.id_check{
+    display: none;
+    font-size:10px;
+}
+.pw_check{
+    display: none;
+    font-size:10px;
+}
+.pwCheck_check{
+    display: none;
+    font-size:10px;
+}
+.name_check{
+    display: none;
+    font-size:10px;
+}
+

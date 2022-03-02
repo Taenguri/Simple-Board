@@ -1,0 +1,119 @@
+.navbar{
+	height: 60px;
+	padding-left: 30px;
+	padding-right: 30px;
+	background-color:#FFB900;
+}
+
+
+.navbar #menu{
+	float: right;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.navbar #menu li{
+	float: left;
+	margin-left: 50px;
+	line-height: 60px;
+
+}
+.navbar #menu li a {
+	color:white;
+	font-size: 13px;
+	text-decoration: none;
+	font-weight: bold;
+}
+.header{
+	height: 400px;
+	background-image: url("../img/aa.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+
+}
+#logo{
+		color:white;
+	font-size: 16px;
+	text-decoration: none;
+	font-weight: bold;
+		line-height: 60px;
+}
+
+.content_area{
+	width: 100%;
+	height: 730px;
+}
+.sideleft{
+	float: left;
+	height: 100%;
+	width: 15%;
+}
+
+.content{
+	float: left;
+		height: 700px;
+	width: 70%;
+}
+.footer{
+	width:100%;
+	heigth:100px;
+	background-color:#FFB900;
+}
+.sideright{
+	float: left;
+		height: 100%;
+	width: 15%;
+}
+
+/* float 속성 해제 */
+.clearfix{
+	clear: both;
+}
+.list_logo{
+	font-size:40px;
+	font-weight:bold;
+	color:#FFB900;
+}
+
+.writebtn{
+	width:80px;
+	height:40px;
+	float:right;
+}
+#writeBtn{
+	font-size:16px;
+	color:white;
+	background-color:#FFB900;
+	border:0;
+	outline:0;
+}
+.replylogin{
+	margin-top:50px;
+	height:100px;
+	width:100%;
+}
+.replylogin span{
+	font-weight:bold;
+	font-size:16px;
+}
+.replylogin a{
+	font-weight:bold;
+	font-size:16px;
+		text-decoration: none;
+		color:#FFB900;
+}
+.content_header{
+	margin-bottom:10px;
+	margin-top:10px;
+	font-weight:bold;
+	font-size:16px;
+}
+.button_line{
+	margin-top:40px;
+	width:100%;
+	height:70px;
+	border-bottom:1px dotted;
+}
+

@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+body {
+  margin: 0px;
+  background-color: #FFE4B5;
+  border: none;
+}
+
+.delete_form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);  
+  margin: 0 auto;
+  width: 300px;
+  background-color: #EEEFF1;
+  border-radius: 5px;
+  border: 0px;
+  padding: 20px;
+  text-align: center;
+}
+
+.input_id {
+  font-size: 14px;
+  width: 260px;
+  border: 0px;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.input_name {
+  font-size: 14px;
+  width: 260px;
+  border: 0px;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.input_pw {
+  font-size: 14px;
+  width: 260px;
+  border: 0px;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.delete_button {
+  margin-top:10px;
+  font-size: 14px;
+  color: white;
+  background-color: #FFBB8C;
+  border-radius: 5px;
+  border: none;
+  width: 260px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.return_button {
+  font-size: 14px;
+  color: white;
+  background-color: #FFBB8C;
+  border-radius: 5px;
+  border: none;
+  width: 260px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.delete_button:hover{
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50)
+}
+.return_button:hover{
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50)
+}
+ 
+/* 로그인 실패시 경고글 */
+.delete_no{
+	text-align: center;
+    color : red;
+    font-size:10px;
+}
+ 

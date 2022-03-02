@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="boardMapper">
+      
+      
+      
+     <sql id="search">
+		<if test="condition != null">
+			<if test="condition == 'title'.toString()">AND TITLE LIKE '%' || #{keyword} || '%'</if>
+			<if test="condition == 'content'.toString()">AND CONTENT LIKE '%' || #{keyword} || '%'</if>
+			<if test="condition == 'writer'.toString()">AND WRITER LIKE '%' || #{keyword} || '%'</if>
+			<if test="condition == 'titleContent'.toString()">AND (TITLE LIKE '%' || #{keyword} || '%') or (CONTENT LIKE '%' || #{keyword} || '%')</if>
+		</if>
+	</sql>
+      
+      
+      <!-- 게시판 글 작성 -->
+      
+   <insert id="insert">
+	   insert into board(    bno , title , content , writer,memberId  )
+	                 VALUES(    board_seq.NEXTVAL, #{title}, #{content}, #{writer},#{memberId}  )
+   </insert>
+   
+   	<select id="list" resultType="com.board.vo.BoardVO">
+	select bno, title, content, writer, regdate,hit,memberId
+		 FROM ( select bno, title, content, writer, regdate, hit,ROW_NUMBER() OVER(ORDER BY BNO DESC) AS rn,
+            (select memberId from member where member.memberId = board.memberId) memberId
+                 FROM board	WHERE 1=1 <include refid="search"></include>)
+		WHERE rn BETWEEN #{pStart} AND #{pEnd}
+		ORDER BY bno DESC		
+		
+	</select>
+	
+	<select id="listCount" resultType="int">
+	select count(bno) from board
+	WHERE 1=1 <include refid="search"></include>
+	</select>	
+		
+		
+		
+	
+		<select id="getArticle" parameterType="int" resultType="com.board.vo.BoardVO">
+		select bno, title, content, writer, regdate,
+		            (select memberId from member where member.memberId = board.memberId) memberId
+		 FROM board
+		 WHERE bno = #{bno}
+	</select>
+	
+	    <update id="update" parameterType="com.board.vo.BoardVO">
+		update board	SET title  =  #{title}, content  =   #{content} WHERE bno = #{bno} 
+	</update>
+	
+	<delete id="delete" parameterType="int">
+		delete FROM board WHERE bno = #{bno}
+	</delete>
+		    <!-- 게시판 조회수 -->
+    <update id="boardHit" parameterType="int">
+    	UPDATE board SET
+    	hit = hit+1
+    	WHERE bno = #{bno}
+    </update>
+	
+</mapper>
