@@ -108,6 +108,41 @@ DB비밀번호를 비교하여
 제목, 내용, 작성자, 제목+내용으로
 검색 할 수 있습니다.<hr>
 
+### 페이징기능
+![image](https://user-images.githubusercontent.com/100080583/156283964-e300c89b-ac41-41f6-ad93-ee9fbabd224e.png)<br>
+
+PageVO 와 PageCreaterVO를 만든후 페이징 알고리즘을 적용시켰습니다.<hr>
+
+### 댓글 등록
+
+![image](https://user-images.githubusercontent.com/100080583/156283993-8fb686a8-958b-4a41-951f-cd8f390eca98.png)
+![image](https://user-images.githubusercontent.com/100080583/156283997-726159f9-f4da-4667-a7db-f11ceac58b2b.png)<br>
+세션을 활용하여 로그인한 사용자만 댓글기능을 이용할수 있고
+비동기통신을 위해
+ajax를 사용했습니다.<hr>
+
+### 댓글 수정
+![image](https://user-images.githubusercontent.com/100080583/156284028-f0231ce5-a569-408e-88f1-b5388ec643e8.png)
+![image](https://user-images.githubusercontent.com/100080583/156284032-2ea16d63-93f5-4801-90da-fb0e7eb11476.png)<br>
+댓글 수정은 
+작성자 본인만 가능하도록 
+세션을 활용하여 회원Id 값을 비교해 값이 일치하면 수정이 가능합니다.<hr>
+
+### 댓글 삭제
+
+![image](https://user-images.githubusercontent.com/100080583/156284057-a2285ab9-5837-41d8-8813-6ee768b3f0ea.png)
+![image](https://user-images.githubusercontent.com/100080583/156284063-4504ed48-a010-487d-906d-5baa747d7d45.png)<br>
+댓글 삭제 역시 
+작성자 본인만 가능하도록 
+세션을 활용하여 회원Id 값을 비교해 값이 일치하면 삭제가 가능합니다.<hr>
+
+
+
+
+
+
+
+
 
 
 
