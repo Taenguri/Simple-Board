@@ -62,6 +62,26 @@
 ![image](https://user-images.githubusercontent.com/100080583/156283387-31909cff-a880-4042-9ea2-90d8e09e6973.png)
 ![image](https://user-images.githubusercontent.com/100080583/156283395-b62219f8-9934-4e79-830c-1a57f076898b.png)
 
+로그인시 입력받은 데이터와
+DB데이터를 비교한후
+입력값이같으면 로그인이 가능합니다.<hr>
+
+### 회원탈퇴
+![image](https://user-images.githubusercontent.com/100080583/156283634-5b228119-e2e1-4376-915c-2cddca883146.png)
+회원탈퇴시 입력받은 비밀번호와
+DB비밀번호를 비교하여
+비밀번호가 일치하면
+회원탈퇴가 가능합니다.<hr>
+
+### 글쓰기
+
+![image](https://user-images.githubusercontent.com/100080583/156283667-4b6ed9b6-eaa0-4f6e-8e0a-fc21a1e414aa.png)
+글 작성은
+로그인한 사용자만 가능하며
+로그인 한상태로 글 작성을 누르면
+세션을 이용하여
+작성자이름과 작성자Id를 가져옵니다. <hr>
+
 
 
 
