@@ -33,8 +33,8 @@
 ###### 회원가입
 
 
-![image](https://user-images.githubusercontent.com/100080583/156282619-9e8f9c4c-89e9-4fee-a30b-d6dd1fc36f96.png)
-![image](https://user-images.githubusercontent.com/100080583/156282630-150a7fc2-e571-46d1-b14e-67030c6e43b3.png)
+![image](https://user-images.githubusercontent.com/100080583/156282619-9e8f9c4c-89e9-4fee-a30b-d6dd1fc36f96.png)<br>
+![image](https://user-images.githubusercontent.com/100080583/156282630-150a7fc2-e571-46d1-b14e-67030c6e43b3.png)<br>
 회원가입시 유효성체크를 통해
 공백문자가 없도록 구현했습니다.
 
