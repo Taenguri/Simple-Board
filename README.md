@@ -28,3 +28,14 @@
 
 회원제 게시판이므로 로그인을 하지 않은 사용자가 로그인이 필요한 서비스에 접근 할 경우를 대비해
 인터셉터를 활용하여 비회원의 접근을 제한합니다.
+
+
+###### 회원가입
+
+
+![image](https://user-images.githubusercontent.com/100080583/156282619-9e8f9c4c-89e9-4fee-a30b-d6dd1fc36f96.png)
+![image](https://user-images.githubusercontent.com/100080583/156282630-150a7fc2-e571-46d1-b14e-67030c6e43b3.png)
+회원가입시 유효성체크를 통해
+공백문자가 없도록 구현했습니다.
+
+
