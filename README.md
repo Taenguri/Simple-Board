@@ -60,14 +60,14 @@
 ### 로그인
 
 ![image](https://user-images.githubusercontent.com/100080583/156283387-31909cff-a880-4042-9ea2-90d8e09e6973.png)
-![image](https://user-images.githubusercontent.com/100080583/156283395-b62219f8-9934-4e79-830c-1a57f076898b.png)
+![image](https://user-images.githubusercontent.com/100080583/156283395-b62219f8-9934-4e79-830c-1a57f076898b.png)<br>
 
 로그인시 입력받은 데이터와
 DB데이터를 비교한후
 입력값이같으면 로그인이 가능합니다.<hr>
 
 ### 회원탈퇴
-![image](https://user-images.githubusercontent.com/100080583/156283634-5b228119-e2e1-4376-915c-2cddca883146.png)
+![image](https://user-images.githubusercontent.com/100080583/156283634-5b228119-e2e1-4376-915c-2cddca883146.png)<br>
 회원탈퇴시 입력받은 비밀번호와
 DB비밀번호를 비교하여
 비밀번호가 일치하면
@@ -75,12 +75,42 @@ DB비밀번호를 비교하여
 
 ### 글쓰기
 
-![image](https://user-images.githubusercontent.com/100080583/156283667-4b6ed9b6-eaa0-4f6e-8e0a-fc21a1e414aa.png)
+![image](https://user-images.githubusercontent.com/100080583/156283667-4b6ed9b6-eaa0-4f6e-8e0a-fc21a1e414aa.png)<br>
 글 작성은
 로그인한 사용자만 가능하며
 로그인 한상태로 글 작성을 누르면
 세션을 이용하여
 작성자이름과 작성자Id를 가져옵니다. <hr>
+
+### 글수정
+![image](https://user-images.githubusercontent.com/100080583/156283741-1c0c4f05-1acb-470d-a52f-fba5c20427e3.png)
+![image](https://user-images.githubusercontent.com/100080583/156283752-2c347301-bfac-4ca0-8881-a91b4a91d92e.png)<br>
+글 수정은 
+작성자 본인만 가능하며
+글 수정 완료시
+글번호, 페이지번호, 검색 관련정보를
+가지고 상세보기 페이지로 이동합니다.<hr>
+
+
+### 글삭제
+
+![image](https://user-images.githubusercontent.com/100080583/156283808-28c83149-7a0b-4641-8941-9c715ebd3d55.png)<br>
+ 글 삭제 역시 
+작성자 본인만 가능하며
+글 삭제 완료시
+글번호, 페이지번호, 검색 관련정보를
+가지고 상세보기 페이지로 이동합니다.<hr>
+
+### 검색기능
+![image](https://user-images.githubusercontent.com/100080583/156283858-28b62dc5-f32f-425b-ae3c-04b71bb4d262.png)
+![image](https://user-images.githubusercontent.com/100080583/156283867-7ffe8ef9-078d-43d9-be25-6bbb69836d2e.png)<br>
+동적 sql문을 사용하여
+제목, 내용, 작성자, 제목+내용으로
+검색 할 수 있습니다.<hr>
+
+
+
+
 
 
 
