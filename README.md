@@ -23,13 +23,14 @@
 
 <br>
 ###### 인터셉터활용
+
+
 ![image](https://user-images.githubusercontent.com/100080583/156282449-11482550-a496-437c-b42e-3c68f6115b08.png)
 ![image](https://user-images.githubusercontent.com/100080583/156282545-712eb693-4c00-4bcc-bd20-9395e57c00e4.png)
 
 회원제 게시판이므로 로그인을 하지 않은 사용자가 로그인이 필요한 서비스에 접근 할 경우를 대비해
 인터셉터를 활용하여 비회원의 접근을 제한합니다.
-<br>
-<br>
+
 
 ###### 회원가입
 
