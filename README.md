@@ -55,6 +55,16 @@
 ![image](https://user-images.githubusercontent.com/100080583/156282212-36363a42-24c5-4fd1-abaf-4806fd27e4dc.png)<hr>
 
 
+### 게시판 테이블
+![image](https://user-images.githubusercontent.com/100080583/156968120-8318a16e-95fd-41ca-a39a-a424f132e1f4.png)<hr>
+
+### 회원 테이블
+![image](https://user-images.githubusercontent.com/100080583/156968146-80ae7df3-1aa9-48be-8505-feb3c8ae593d.png)<hr>
+
+### 댓글 테이블
+![image](https://user-images.githubusercontent.com/100080583/156968174-1035acbc-0486-4432-8e2f-d6b0c96efb26.png)<hr>
+
+
 
 ### 기술상세
 
