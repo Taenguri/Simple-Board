@@ -16,10 +16,6 @@
 
 
 
-### DB설계
-![image](https://user-images.githubusercontent.com/100080583/156282212-36363a42-24c5-4fd1-abaf-4806fd27e4dc.png)<hr>
-
-
 ### 요구사항 분석
 
 - 회원가입 및 로그인
@@ -49,6 +45,10 @@
  
 
 <hr>
+
+
+### DB설계
+![image](https://user-images.githubusercontent.com/100080583/156282212-36363a42-24c5-4fd1-abaf-4806fd27e4dc.png)<hr>
 
 
 
