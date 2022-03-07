@@ -170,7 +170,7 @@ ajax를 사용했습니다.<hr>
 
 ### 댓글 수정
 ![image](https://user-images.githubusercontent.com/100080583/156284028-f0231ce5-a569-408e-88f1-b5388ec643e8.png)
-![image](https://user-images.githubusercontent.com/100080583/156284032-2ea16d63-93f5-4801-90da-fb0e7eb11476.png)<br>
+![image](https://user-images.githubusercontent.com/100080583/156970264-7bc20950-ace3-4d4d-bf13-80b8b2014d63.png)<br>
 댓글 수정은 
 작성자 본인만 가능하도록 
 세션을 활용하여 회원Id 값을 비교해 값이 일치하면 수정이 가능합니다.<hr>
@@ -178,7 +178,7 @@ ajax를 사용했습니다.<hr>
 ### 댓글 삭제
 
 ![image](https://user-images.githubusercontent.com/100080583/156284057-a2285ab9-5837-41d8-8813-6ee768b3f0ea.png)
-![image](https://user-images.githubusercontent.com/100080583/156284063-4504ed48-a010-487d-906d-5baa747d7d45.png)<br>
+![image](https://user-images.githubusercontent.com/100080583/156970272-0ea36c7e-884b-47a8-9d56-ae0c5cd47c89.png)<br>
 댓글 삭제 역시 
 작성자 본인만 가능하도록 
 세션을 활용하여 회원Id 값을 비교해 값이 일치하면 삭제가 가능합니다.<hr>
