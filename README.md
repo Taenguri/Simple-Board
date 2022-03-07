@@ -45,10 +45,10 @@
  
 
 <hr>
-![image](https://user-images.githubusercontent.com/100080583/156967936-69efb73f-3a72-449a-8d58-fe243640b12c.png)<hr>
 
 
 ### UI설계
+![image](https://user-images.githubusercontent.com/100080583/156967936-69efb73f-3a72-449a-8d58-fe243640b12c.png)<hr>
 
 
 ### DB설계
