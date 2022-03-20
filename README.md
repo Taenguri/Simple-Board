@@ -11,7 +11,7 @@
 ### 개요
 프로젝트 이름 : Simple Board <br>
 개발 인원 :  1명 <br>
-개발 기간 :  2022.01.10 ~ 20.02.01 <br>
+개발 기간 :  2022.01.10 ~ 2022.02.01 <br>
 주요 기능  -  회원가입 및 로그인 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    -  게시글 등록, 수정, 삭제		 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    -  페이징 및 검색기능  <br>
