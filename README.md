@@ -17,7 +17,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    -  페이징 및 검색기능  <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    -  책 상세보기 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   -  댓글 작성, 수정, 삭제 기능 <br>
-개발 환경  :  Spring framework, Java,, HTML5,CSS3, Jquery, oracle,  bootstrap <br>
+개발 환경  : Spring framework, Java,, HTML5,CSS3, Jquery, oracle, Maven, bootstrap, Jsp, Mybatis <br>
 
 간단 소개  :  회원제 게시판(CRUD) 입니다. <hr>
 
