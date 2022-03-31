@@ -19,7 +19,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   -  댓글 작성, 수정, 삭제 기능 <br>
 개발 환경  : Spring Legacy, Java 1.8, HTML5,CSS3, Jquery, oracle, Maven, bootstrap, Jsp, Mybatis, eclipse<br>
 
-간단 소개  :  회원제 게시판(CRUD) 입니다. <hr>
+간단 소개  :  회원제 게시판(CRUD) 입니다.  <hr>
 
 
 
